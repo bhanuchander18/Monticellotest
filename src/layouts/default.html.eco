@@ -24,7 +24,7 @@
 <header>
 	<div class="container">
 		<div class="logo">
-			<img src="/images/pic_001.png" class="img-responsive" />
+			<img src="images/pic_001.png" class="img-responsive" />
 		</div>
 		<div class="search"><i id="search" class="fa fa-search" aria-hidden="true"></i>
 		<div class="search_form">
@@ -91,19 +91,19 @@
   <%- @content %>
   <%- @getBlock("scripts").toHTML() %>
   
-<%- @getBlock("scripts").add(["/scripts/jquery.js"]).toHTML() %>
-<%- @getBlock("scripts").add(["/scripts/bootstrap.js"]).toHTML() %>
-<%- @getBlock("scripts").add(["/scripts/dcjqaccordion.js"]).toHTML() %>
-<%- @getBlock("scripts").add(["/scripts/main.js"]).toHTML() %>
-<%- @getBlock("scripts").add(["/scripts/owlcarousel.js"]).toHTML() %>
-<%- @getBlock("scripts").add(["/scripts/filterizr.js"]).toHTML() %>
-<%- @getBlock("scripts").add(["/scripts/controls.js"]).toHTML() %>
-<%- @getBlock("scripts").add(["/scripts/owlcust.js"]).toHTML() %>
-<%- @getBlock("scripts").add(["/scripts/carousel.js"]).toHTML() %>
-<%- @getBlock("scripts").add(["/scripts/classie.js"]).toHTML() %>		
+<%- @getBlock("scripts").add(["scripts/jquery.js"]).toHTML() %>
+<%- @getBlock("scripts").add(["scripts/bootstrap.js"]).toHTML() %>
+<%- @getBlock("scripts").add(["scripts/dcjqaccordion.js"]).toHTML() %>
+<%- @getBlock("scripts").add(["scripts/main.js"]).toHTML() %>
+<%- @getBlock("scripts").add(["scripts/owlcarousel.js"]).toHTML() %>
+<%- @getBlock("scripts").add(["scripts/filterizr.js"]).toHTML() %>
+<%- @getBlock("scripts").add(["scripts/controls.js"]).toHTML() %>
+<%- @getBlock("scripts").add(["scripts/owlcust.js"]).toHTML() %>
+<%- @getBlock("scripts").add(["scripts/carousel.js"]).toHTML() %>
+<%- @getBlock("scripts").add(["scripts/classie.js"]).toHTML() %>		
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCBXtEityk-n68YWFy-ImXYw7obLsrEAm8&callback=initMap" type="text/javascript"></script>		
-<%- @getBlock("scripts").add(["/scripts/easymap.js"]).toHTML() %>
-<%- @getBlock("scripts").add(["/scripts/script.js"]).toHTML() %>
+<%- @getBlock("scripts").add(["scripts/easymap.js"]).toHTML() %>
+<%- @getBlock("scripts").add(["scripts/script.js"]).toHTML() %>
 <footer>
 	<div class="container">© 2013-2017 Veterinary Hospital. All rights reserved. </div>
 </footer>
