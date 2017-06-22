@@ -9,6 +9,7 @@
     "docpad-plugin-cleanurls": "~2.10.0",
     "docpad-plugin-coffeescript": "~2.6.0",
     "docpad-plugin-eco": "~2.2.1",
+    "docpad-plugin-frontend": "^2.1.1",
     "docpad-plugin-ghpages": "~2.6.1",
     "docpad-plugin-less": "~2.5.1",
     "docpad-plugin-livereload": "~2.9.0",
@@ -27,5 +28,6 @@
   "main": "node_modules/.bin/docpad-server",
   "scripts": {
     "start": "node_modules/.bin/docpad-server"
-  }
+  },
+  "devDependencies": {}
 }
