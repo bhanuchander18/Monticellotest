@@ -7,7 +7,7 @@ docpadConfig = {
         
         site:
             # The production url of our website
-            url: "http://localhost:9778"
+            url: "https://betabullstest.github.io/Monticellotest/"
 
             # The default title of our website
             title: "Your Website"
@@ -75,3 +75,10 @@ docpadConfig = {
 
 # Export the DocPad Configuration
 module.exports = docpadConfig
+
+plugins:
+	ghpages:
+		deployRemote: 'target'
+		deployBranch: 'master'
+		
+outPath: '.'
